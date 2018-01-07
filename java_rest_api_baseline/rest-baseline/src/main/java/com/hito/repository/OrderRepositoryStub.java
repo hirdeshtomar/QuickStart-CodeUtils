@@ -43,6 +43,12 @@ public class OrderRepositoryStub implements OrderRepository {
 		
 		return order1;
 	}
+
+	@Override
+	public void create(Order order) {
+		
+		//add database insert statement
+	}
 	
 	
 	

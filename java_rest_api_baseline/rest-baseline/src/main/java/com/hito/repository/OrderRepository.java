@@ -10,4 +10,6 @@ public interface OrderRepository {
 
 	Order findOrder(String orderId);
 
+	void create(Order order);
+
 }
